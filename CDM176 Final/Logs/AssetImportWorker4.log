@@ -1,0 +1,1013 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/humza/Desktop/gameDev/CDM176/CDM176 Final
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+60198
+Successfully changed project path to: C:/Users/humza/Desktop/gameDev/CDM176/CDM176 Final
+C:/Users/humza/Desktop/gameDev/CDM176/CDM176 Final
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2788] Host "[IP] 10.0.0.129 [Port] 0 [Flags] 2 [Guid] 3986143461 [EditorId] 3986143461 [Version] 1048832 [Id] WindowsEditor(7,Humza-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2788] Host "[IP] 10.0.0.129 [Port] 0 [Flags] 2 [Guid] 3986143461 [EditorId] 3986143461 [Version] 1048832 [Id] WindowsEditor(7,Humza-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 28.91 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.60 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/humza/Desktop/gameDev/CDM176/CDM176 Final/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti (ID=0x2782)
+    Vendor:   NVIDIA
+    VRAM:     11996 MB
+    Driver:   31.0.15.5161
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015636 seconds.
+- Loaded All Assemblies, in  0.305 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 235 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.512 seconds
+Domain Reload Profiling: 815ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (102ms)
+				TypeCache.ScanAssembly (92ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (513ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (471ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (335ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (92ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.572 seconds
+Refreshing native plugins compatible for Editor in 18.33 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <78fe3e0b66cf40fc8dbec96aa3584483>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.568 seconds
+Domain Reload Profiling: 1135ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (368ms)
+		LoadAssemblies (293ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (119ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (568ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (432ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (273ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 16.62 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4421 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 83 unused Assets / (76.4 KB). Loaded Objects now: 4885.
+Memory consumption went from 159.7 MB to 159.6 MB.
+Total: 3.043000 ms (FindLiveObjects: 0.276700 ms CreateObjectMapping: 0.141200 ms MarkObjects: 2.510800 ms  DeleteObjects: 0.113700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MenuUtils.cs: ef61e56f05605c149332b0b451f694ed -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 96271.573759 seconds.
+  path: Assets/ModularHousePack1/Art/Materials
+  artifactKey: Guid(f215cb37d63655b4481ef7dc1f058488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Materials using Guid(f215cb37d63655b4481ef7dc1f058488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d5be2238c448d301d19e9b7f6742af') in 0.002137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 302.452390 seconds.
+  path: Assets/HomeStuff/Prefabs/Table.prefab
+  artifactKey: Guid(3d257e714ef9ccd449e0d0e0e373e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Prefabs/Table.prefab using Guid(3d257e714ef9ccd449e0d0e0e373e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54eefa810f129235a5176db96af119a6') in 0.066803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 139.877143 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Walls/Parts/Baseboard.prefab
+  artifactKey: Guid(f3eb910d34e94c249b0e0697d54ef967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Walls/Parts/Baseboard.prefab using Guid(f3eb910d34e94c249b0e0697d54ef967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f015395365ec6609aa37c4d4441a07') in 0.031167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_1C.prefab
+  artifactKey: Guid(4ae54769fcea78749b2aeaec06e8a5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_1C.prefab using Guid(4ae54769fcea78749b2aeaec06e8a5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c9e85546e307c9bb0db354f79789e5') in 0.032312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_5A.prefab
+  artifactKey: Guid(f195714e71a5c2041907cd631458b224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_5A.prefab using Guid(f195714e71a5c2041907cd631458b224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22722d8056e967669c575363c7224f83') in 0.045728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 246
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Curtains/Curtain_1.prefab
+  artifactKey: Guid(5f85861ca7dd1cc4ba67f67a123df2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Curtains/Curtain_1.prefab using Guid(5f85861ca7dd1cc4ba67f67a123df2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48433a05461860cc2be8b88790feb649') in 0.023802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_1A.prefab
+  artifactKey: Guid(02cad59253e36fa42b9b54704b98183a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_1A.prefab using Guid(02cad59253e36fa42b9b54704b98183a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de3b0cdc47372e967a28105800392ec') in 0.019780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HomeStuff/Prefabs/Bookshelf.prefab
+  artifactKey: Guid(21e32de74bee7044fbd8655ea8eeda74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Prefabs/Bookshelf.prefab using Guid(21e32de74bee7044fbd8655ea8eeda74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e57802e5252e37c35eda863d9135f95') in 0.012684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab
+  artifactKey: Guid(a3fde713df4d99042a0403c4be9eea32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab using Guid(a3fde713df4d99042a0403c4be9eea32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91ffe0203ac715cc163bcc6ad9ec31e') in 0.011274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Curtains/Curtain_2.prefab
+  artifactKey: Guid(6f9f054227bb8d04c854525cd8d571df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Curtains/Curtain_2.prefab using Guid(6f9f054227bb8d04c854525cd8d571df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2424df1350858f7f20b1daa068782016') in 0.020259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 78
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/HomeStuff/Models/Bathtub.fbx
+  artifactKey: Guid(47f8c297fa1cc4048a965530702b353d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/Bathtub.fbx using Guid(47f8c297fa1cc4048a965530702b353d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569d7c1990de59766280d40214121cce') in 0.024025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HomeStuff/Models/Book.3.fbx
+  artifactKey: Guid(702dc3751b1b2cf4f833ca162605cda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/Book.3.fbx using Guid(702dc3751b1b2cf4f833ca162605cda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91afdea1d9f00318ddd053f2858ed7d9') in 0.014295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_6A.prefab
+  artifactKey: Guid(3d2fd045aff1b8c44a37841de24dcc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_6A.prefab using Guid(3d2fd045aff1b8c44a37841de24dcc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f0c42454c675fa2b3b128e3b3e6999') in 0.016931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_5B.prefab
+  artifactKey: Guid(1d3e636809681ff45835c31ddff408ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_5B.prefab using Guid(1d3e636809681ff45835c31ddff408ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb73867101d3561e244ddac5c055825a') in 0.035445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 262
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_7B.prefab
+  artifactKey: Guid(a8188ff02276595458f9a97cb9749ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_7B.prefab using Guid(a8188ff02276595458f9a97cb9749ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513a64e3641dbeb296502256147f2a99') in 0.014861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Curtains/Parts/CurtainB.prefab
+  artifactKey: Guid(e62317892d639ed418b752e8578ec16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Curtains/Parts/CurtainB.prefab using Guid(e62317892d639ed418b752e8578ec16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9423bf88b42299b6ed243a665c5dd616') in 0.011123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_8.prefab
+  artifactKey: Guid(0b906b7f8278b1b4abb9525951fde952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_8.prefab using Guid(0b906b7f8278b1b4abb9525951fde952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ada54ec83418e4db11b3beb7ca0a36') in 0.017932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/DemoSceneAssets/Prefabs/Climb/Climb Sample.prefab
+  artifactKey: Guid(2ea572d587ee60f44bd5baa3bc2d6503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/DemoSceneAssets/Prefabs/Climb/Climb Sample.prefab using Guid(2ea572d587ee60f44bd5baa3bc2d6503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d2899b80c00f4e5e4194858af89245') in 0.047779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1089
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HomeStuff/Models/Book.2.fbx
+  artifactKey: Guid(d5f6f6c63bb59f343b64fb522d832b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/Book.2.fbx using Guid(d5f6f6c63bb59f343b64fb522d832b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d81165cc3529ebcdc4415442f86b50') in 0.012403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HomeStuff/Models/Bookshelf.fbx
+  artifactKey: Guid(a2bc5fda40d1ee24ea8d96aa11802285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/Bookshelf.fbx using Guid(a2bc5fda40d1ee24ea8d96aa11802285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97820584699ecc146c69599129c87614') in 0.012012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_4C.prefab
+  artifactKey: Guid(8ad02a1275c734a4698a6001986b7f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_4C.prefab using Guid(8ad02a1275c734a4698a6001986b7f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea57abb188f5ed4a8bd6a262ea84833') in 0.049768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 187
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_4A.prefab
+  artifactKey: Guid(49064dfa47d1ce04d997be64fa79976f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_4A.prefab using Guid(49064dfa47d1ce04d997be64fa79976f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a942277e50383592de423c49a47f94') in 0.049731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 183
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HomeStuff/Prefabs/BigDrawer.prefab
+  artifactKey: Guid(ca1b6a54d5f844248a66c6339eabffed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Prefabs/BigDrawer.prefab using Guid(ca1b6a54d5f844248a66c6339eabffed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7d3e2b8524ba137149d7cec2c81518') in 0.013366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_6B.prefab
+  artifactKey: Guid(98ca116ff5514604c90983fbbb32c2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Corners/Corner_6B.prefab using Guid(98ca116ff5514604c90983fbbb32c2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d12918401440cf79f802482a715e1a') in 0.017014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HomeStuff/Models/Book.1.fbx
+  artifactKey: Guid(656f375b779461048b0cdde1b80ef0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/Book.1.fbx using Guid(656f375b779461048b0cdde1b80ef0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c811c8a03d10926ce76980e74d0711') in 0.014986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 18.877986 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab
+  artifactKey: Guid(2fd3e07afe5b461490fb8e314976b1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab using Guid(2fd3e07afe5b461490fb8e314976b1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f046eb5a389dc35da8c36f919d1584f6') in 0.005414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Corners/Parts/Exterior_Corner_3.prefab
+  artifactKey: Guid(77cfbfa64565f1f47b89581ab546728c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Corners/Parts/Exterior_Corner_3.prefab using Guid(77cfbfa64565f1f47b89581ab546728c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c92b6280d9fc14d138ff6c05fdf5e6') in 0.018003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HomeStuff/Prefabs/Drawer.prefab
+  artifactKey: Guid(1238da40397ef9d428b6d3212674e684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Prefabs/Drawer.prefab using Guid(1238da40397ef9d428b6d3212674e684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc7920c36bd287ace287130a5bf4fe8') in 0.011605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/DemoSceneAssets/Prefabs/UI/Dropdown.prefab
+  artifactKey: Guid(870459f1cb8d7b7428337cc5935feb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/DemoSceneAssets/Prefabs/UI/Dropdown.prefab using Guid(870459f1cb8d7b7428337cc5935feb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af604a6c5695519a6ed7bda188c0c88') in 0.010510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Corners/Parts/Exterior_Corner_1.prefab
+  artifactKey: Guid(a24edd39f5d8e874380ba33bb92fc168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Corners/Parts/Exterior_Corner_1.prefab using Guid(a24edd39f5d8e874380ba33bb92fc168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefe2ad1a7c0fc72c72b36c057a3edf5') in 0.017995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Corners/Parts/Exterior_Corner_2.prefab
+  artifactKey: Guid(a4e692e3edde7b849a66675f9010e070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Corners/Parts/Exterior_Corner_2.prefab using Guid(a4e692e3edde7b849a66675f9010e070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96627b726ef0409545e0347a740207c') in 0.018465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Doors/Parts/Exterior_Door_Frame.prefab
+  artifactKey: Guid(259ee55544bd9e34d9ca42065cb89c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Doors/Parts/Exterior_Door_Frame.prefab using Guid(259ee55544bd9e34d9ca42065cb89c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c680a5fd3b4959897caff1a2fa8eff') in 0.017910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Doors/Parts/Exterior_Door_HingesA.prefab
+  artifactKey: Guid(883b0d6e7385b014c8d33e0586cb42be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Doors/Parts/Exterior_Door_HingesA.prefab using Guid(883b0d6e7385b014c8d33e0586cb42be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842426fd4a962b917a51ffc079b8daa7') in 0.035877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Corners/Parts/Exterior_Corner_6.prefab
+  artifactKey: Guid(8146df013cbd4de40912fbc00e8a0885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Corners/Parts/Exterior_Corner_6.prefab using Guid(8146df013cbd4de40912fbc00e8a0885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7229841a48ac9245fb49078c40cfb6e') in 0.017405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Doors/Parts/Exterior_Door_HingesB.prefab
+  artifactKey: Guid(ddf0fb2eba698b44281d1997267982c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Doors/Parts/Exterior_Door_HingesB.prefab using Guid(ddf0fb2eba698b44281d1997267982c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a65dc28b91e0d27043529eec244b77') in 0.016398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Corners/Parts/Exterior_Corner_5.prefab
+  artifactKey: Guid(c5f7f2255b610ef42896127e03b907d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Corners/Parts/Exterior_Corner_5.prefab using Guid(c5f7f2255b610ef42896127e03b907d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d99bcb21b32ce0f1d5482124b44040f') in 0.017912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Doors/Parts/Exterior_Door_Wall.prefab
+  artifactKey: Guid(f26f109289c64474ba24a13aada60740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Doors/Parts/Exterior_Door_Wall.prefab using Guid(f26f109289c64474ba24a13aada60740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f2f5fedb66f456ae175e82541c0310') in 0.015680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.190877 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Window/Parts/Exterior_Window_HingesC.prefab
+  artifactKey: Guid(efb5b4c24eb9a7a4e9667b992c0e0f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Window/Parts/Exterior_Window_HingesC.prefab using Guid(efb5b4c24eb9a7a4e9667b992c0e0f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4bbd68cc46ec56f523ba877f3d109d') in 0.016731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Window/Parts/Exterior_WindowB.prefab
+  artifactKey: Guid(fd8d9a68ecede5b418c855e45fdd18f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Window/Parts/Exterior_WindowB.prefab using Guid(fd8d9a68ecede5b418c855e45fdd18f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87ae485b08a541414a711911bfcad9b') in 0.016411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Corners/Parts/ExteriorToInterior_Corner_4.prefab
+  artifactKey: Guid(4775cf5772d81f84f84bb38aa1005a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Corners/Parts/ExteriorToInterior_Corner_4.prefab using Guid(4775cf5772d81f84f84bb38aa1005a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0a357bb9bbbe495f059e9de87d392f') in 0.014611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.037618 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Doors/Parts/ExteriorToInterior_Door_Wall.prefab
+  artifactKey: Guid(aa8e4509ee372b44b9b708e7672aa86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Doors/Parts/ExteriorToInterior_Door_Wall.prefab using Guid(aa8e4509ee372b44b9b708e7672aa86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701dadf597bc8ac21fe5d4913c5a1973') in 0.015665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Fences/Fence_7.prefab
+  artifactKey: Guid(90e9466144ec4f3478988b90a57c0eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Fences/Fence_7.prefab using Guid(90e9466144ec4f3478988b90a57c0eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30c84e12e138c773bdb3fae2f83cc37') in 0.015659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/DemoSceneAssets/Prefabs/UI/Icon Button.prefab
+  artifactKey: Guid(56686f82f64b0af4688a89676403a500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/DemoSceneAssets/Prefabs/UI/Icon Button.prefab using Guid(56686f82f64b0af4688a89676403a500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d662a5d1f3c3ea6a03638980537dc7c') in 0.005607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/DemoSceneAssets/Prefabs/UI/Interactive Controls.prefab
+  artifactKey: Guid(7bbb1960bab3e75459304488d8d1ffba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/DemoSceneAssets/Prefabs/UI/Interactive Controls.prefab using Guid(7bbb1960bab3e75459304488d8d1ffba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f56142b5bfefc5fbc01e2f50ac8cf0f') in 0.007703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 204
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Velocity Tracked Wedge.prefab
+  artifactKey: Guid(d5615d616019430d9c2e8727e71c97fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Velocity Tracked Wedge.prefab using Guid(d5615d616019430d9c2e8727e71c97fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277fcdf6a66c65be588585c0653504c4') in 0.020393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Fences/Fence_5.prefab
+  artifactKey: Guid(1549108b5735f984194d1401e0ddecba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Fences/Fence_5.prefab using Guid(1549108b5735f984194d1401e0ddecba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d6ffac0f396566984057773a35063e') in 0.014465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Fences/Fence_6.prefab
+  artifactKey: Guid(d4a2dbe7fa3bfce46bc1ef7446af2878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Fences/Fence_6.prefab using Guid(d4a2dbe7fa3bfce46bc1ef7446af2878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0a0317ac175ee999736206257d1c50') in 0.017814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Instant Pyramid.prefab
+  artifactKey: Guid(2ed984a58a974166bf92c82a74380454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Instant Pyramid.prefab using Guid(2ed984a58a974166bf92c82a74380454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8dae17b21c9f1a31fe5497b80eb4c76') in 0.011875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Fences/Fence_4.prefab
+  artifactKey: Guid(c7ad4b72248507644bb9d41ae4582616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Fences/Fence_4.prefab using Guid(c7ad4b72248507644bb9d41ae4582616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a2ec31b13601ca7e29d7818e53efc9') in 0.017916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 4.689109 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Roofs/Parts/RoofFlat_CeilingA.prefab
+  artifactKey: Guid(1c6f3fcb7755dd24a9bdbe130c65d1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Roofs/Parts/RoofFlat_CeilingA.prefab using Guid(1c6f3fcb7755dd24a9bdbe130c65d1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1749c4f2a2c7bf8f6fccd2a7bea8079b') in 0.013908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 7.436066 seconds.
+  path: Assets/HomeStuff/Prefabs
+  artifactKey: Guid(51f2fcb41ebec8d4ca45adaa25bbc390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Prefabs using Guid(51f2fcb41ebec8d4ca45adaa25bbc390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2678890be432bef5389c62ec070baca1') in 0.000521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.987356 seconds.
+  path: Assets/HomeStuff/Prefabs/Lamp.prefab
+  artifactKey: Guid(c34cb3bdef7a4304dbaea59504e23078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Prefabs/Lamp.prefab using Guid(c34cb3bdef7a4304dbaea59504e23078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a72440aef095823be57791ca6cb089') in 0.010203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 13.186504 seconds.
+  path: Assets/HomeStuff/Prefabs/Chair.prefab
+  artifactKey: Guid(f10606bea1b2fbb4f843cba6be75582f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Prefabs/Chair.prefab using Guid(f10606bea1b2fbb4f843cba6be75582f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f124f73927574e91c0ab9e5e1c227e') in 0.001544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 47.701325 seconds.
+  path: Assets/HomeStuff/Prefabs/SmallTable.prefab
+  artifactKey: Guid(f77ebcdeb49293c40889ebc9f839e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Prefabs/SmallTable.prefab using Guid(f77ebcdeb49293c40889ebc9f839e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd17f1906695109aee91d2dd50793ab') in 0.011338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 478.711974 seconds.
+  path: Assets/HomeStuff/Prefabs/TV.prefab
+  artifactKey: Guid(7841159c855bb0d44bcc9f1f89548d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Prefabs/TV.prefab using Guid(7841159c855bb0d44bcc9f1f89548d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf832b2e4dc798e5d553b0e5d1b6fcdd') in 0.013084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 138.271407 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Roads
+  artifactKey: Guid(b724863002a67374187aa05793dcf6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Roads using Guid(b724863002a67374187aa05793dcf6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9149fe36a327785caba81ef38dff81c2') in 0.000566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 727.100515 seconds.
+  path: Assets/HomeStuff/Prefabs/Toilet.prefab
+  artifactKey: Guid(02720cae123f313459194cd837caf3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Prefabs/Toilet.prefab using Guid(02720cae123f313459194cd837caf3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad418eaff1caaf5f269228002fbe211c') in 0.016304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.004262 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Walls/Wall_1A.prefab
+  artifactKey: Guid(44af88ee9fc28e043adf0e6fb2befd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Walls/Wall_1A.prefab using Guid(44af88ee9fc28e043adf0e6fb2befd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efebb7689e50108d76f40c311400e40') in 0.020640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/Prefabs/Controllers/XR Controller Left.prefab
+  artifactKey: Guid(1392f805216c47742996d4742c80721c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/Prefabs/Controllers/XR Controller Left.prefab using Guid(1392f805216c47742996d4742c80721c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf22ddc5b18ee8183628ce76a986ef4') in 0.013913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 93
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Walls/Wall_2F.prefab
+  artifactKey: Guid(8fb0975a029d13847b8b987825cc70cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Walls/Wall_2F.prefab using Guid(8fb0975a029d13847b8b987825cc70cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46717cb08f2abd7bbac49573fe5d5ed') in 0.017182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Walls/Wall_2B.prefab
+  artifactKey: Guid(d6e2c8bf9837afb43aaf81d2205c950c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Walls/Wall_2B.prefab using Guid(d6e2c8bf9837afb43aaf81d2205c950c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a4d2395230184263a76fed84499244') in 0.018595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/Prefabs/XR Origin (XR Rig).prefab
+  artifactKey: Guid(f6336ac4ac8b4d34bc5072418cdc62a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/Prefabs/XR Origin (XR Rig).prefab using Guid(f6336ac4ac8b4d34bc5072418cdc62a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2145ed7e5e58d34793d7834aec8f9f80') in 0.050360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 459
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/HomeStuff/Prefabs/TVTable.prefab
+  artifactKey: Guid(f266cbc0b1e72924f909c3ea2b746949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Prefabs/TVTable.prefab using Guid(f266cbc0b1e72924f909c3ea2b746949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b9adf8750665af1c5189173c2e8071') in 0.011036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/DemoSceneAssets/Prefabs/UI Sample.prefab
+  artifactKey: Guid(fd28f23af44f73f4a95e33435872ad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/DemoSceneAssets/Prefabs/UI Sample.prefab using Guid(fd28f23af44f73f4a95e33435872ad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee0b4a9f47f5abd1c6c26b2b4c7bcf6') in 0.007345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 315
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Window/Window_1C.prefab
+  artifactKey: Guid(75ef4c58d855e574ebb65e9d55bd8c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Window/Window_1C.prefab using Guid(75ef4c58d855e574ebb65e9d55bd8c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73577dc61b2bf634f227eaf3cc17c952') in 0.044314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 185
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/Prefabs/XR Interaction Setup.prefab
+  artifactKey: Guid(895f6f3c2d334633b5800312285058d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/Prefabs/XR Interaction Setup.prefab using Guid(895f6f3c2d334633b5800312285058d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165071e77ecb000e1e96f022a0f77c9e') in 0.031289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 618
+========================================================================
+Received Import Request.
+  Time since last request: 2.325353 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Corners/Parts/Interior_Corner_1.prefab
+  artifactKey: Guid(68625caa42caf4a4c8092b6e4cd7c05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Corners/Parts/Interior_Corner_1.prefab using Guid(68625caa42caf4a4c8092b6e4cd7c05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b87ccceefa6a7f564fc4e3f860820b') in 0.014225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Corners/Parts/Interior_Corner_Baseboard_2.prefab
+  artifactKey: Guid(18394bdacbfd7074483804bce1be03bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Corners/Parts/Interior_Corner_Baseboard_2.prefab using Guid(18394bdacbfd7074483804bce1be03bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551f33be374524528c33c652cd879279') in 0.013938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab
+  artifactKey: Guid(27024f5809f4a4347b9cd7f26a1bdf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab using Guid(27024f5809f4a4347b9cd7f26a1bdf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5fa32c4c70f4ae4302283947a5ead97') in 0.010259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Doors/Parts/Interior_Door_Baseboard.prefab
+  artifactKey: Guid(5f5fd3c2188df8f43a4b5a648002990f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Doors/Parts/Interior_Door_Baseboard.prefab using Guid(5f5fd3c2188df8f43a4b5a648002990f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d96a314ad1588f7ca10621736deab4') in 0.013155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/Prefabs/Interactors/Ray Interactor.prefab
+  artifactKey: Guid(ad818c36731146e994540a1896ad8f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/Prefabs/Interactors/Ray Interactor.prefab using Guid(ad818c36731146e994540a1896ad8f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad32379c6d4f815349e9f57292d0eec') in 0.009568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Floors/Parts/Interior_Floor.prefab
+  artifactKey: Guid(fe09c155ffafe1c4d91d6ebd42d1f5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Floors/Parts/Interior_Floor.prefab using Guid(fe09c155ffafe1c4d91d6ebd42d1f5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c9bf4702b34a6ab88adb547d4cf634') in 0.015469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Doors/Parts/Interior_Door_Pommel.prefab
+  artifactKey: Guid(0d2eb644e66ba054c94ace55f6a4fa8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Doors/Parts/Interior_Door_Pommel.prefab using Guid(0d2eb644e66ba054c94ace55f6a4fa8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ba3d43452be783625d86ecc4e9f242') in 0.018402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Stairs/Parts/Stairs2_Interior_Ceiling.prefab
+  artifactKey: Guid(691f78000168844419c535e6d1794e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Stairs/Parts/Stairs2_Interior_Ceiling.prefab using Guid(691f78000168844419c535e6d1794e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cba274759e60f4688d2b4e8bdf1453') in 0.013126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Floors/Parts/Interior_Floor_Up.prefab
+  artifactKey: Guid(989a9b55bc3f4ec428b6f8a1b6783c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Floors/Parts/Interior_Floor_Up.prefab using Guid(989a9b55bc3f4ec428b6f8a1b6783c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f7399ede5c7979024b953aec3de892') in 0.014943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Doors/Parts/Interior_Door.prefab
+  artifactKey: Guid(c7049498fdae1fa4992800082e31571c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Doors/Parts/Interior_Door.prefab using Guid(c7049498fdae1fa4992800082e31571c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca5b5c7c5fafa02727c174a30d3bf8d') in 0.016200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Doors/Parts/Interior_Door_HingesB.prefab
+  artifactKey: Guid(c249fc6e3f813f14dbe21617804ed17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Doors/Parts/Interior_Door_HingesB.prefab using Guid(c249fc6e3f813f14dbe21617804ed17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d0ccd9cf212418dca99c8bc8e54a2e') in 0.013637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ModularHousePack1/Prefabs/Modules/Walls/Parts/Interior_WallB.prefab
+  artifactKey: Guid(9c0a9e1a998861d408ca54a9f808af2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Prefabs/Modules/Walls/Parts/Interior_WallB.prefab using Guid(9c0a9e1a998861d408ca54a9f808af2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a56270b64f602a957f9e73eabc2cdac') in 0.013316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1071.533356 seconds.
+  path: Assets/Pipoza/Low Poly Stylized Car #2
+  artifactKey: Guid(d150f7767b55928459eb318b087eecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pipoza/Low Poly Stylized Car #2 using Guid(d150f7767b55928459eb318b087eecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358027663a5528a1cf203a6e06508874') in 0.000574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.696874 seconds.
+  path: Assets/Pipoza/Low Poly Stylized Car #2/Materials
+  artifactKey: Guid(facafb7d440b449449e036fd4b8fa989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pipoza/Low Poly Stylized Car #2/Materials using Guid(facafb7d440b449449e036fd4b8fa989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c553c7c7b4954ed563919193feaba8d7') in 0.000389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.017469 seconds.
+  path: Assets/Pipoza/Low Poly Stylized Car #2/Meshes
+  artifactKey: Guid(665ebf451dfbfa640a5e7cd0bedefd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pipoza/Low Poly Stylized Car #2/Meshes using Guid(665ebf451dfbfa640a5e7cd0bedefd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4202a5217ca5eb7137c95ed1e1f1ff3d') in 0.000442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.344533 seconds.
+  path: Assets/Pipoza/Low Poly Stylized Car #2/Prefabs/Fortina.prefab
+  artifactKey: Guid(2bea65aabb2fef5489d843294bae0dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pipoza/Low Poly Stylized Car #2/Prefabs/Fortina.prefab using Guid(2bea65aabb2fef5489d843294bae0dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e983d4cc3c29b6a7585c1d90f600783') in 0.218028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 251.551595 seconds.
+  path: Assets/Scenes/House.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/House.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69b93a8876698d9b8dbaa8788f9cf22') in 0.000553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.171763 seconds.
+  path: Assets/Scenes/House 1.unity
+  artifactKey: Guid(46648e4ec497ae84fbc620c0947dabc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/House 1.unity using Guid(46648e4ec497ae84fbc620c0947dabc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07b792378892f215fc84391b27f2848') in 0.000484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.594409 seconds.
+  path: Assets/Scenes/Work.unity
+  artifactKey: Guid(46648e4ec497ae84fbc620c0947dabc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Work.unity using Guid(46648e4ec497ae84fbc620c0947dabc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa178b21f07088ee432859b5d142bcf0') in 0.000629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.460 seconds
+Refreshing native plugins compatible for Editor in 18.24 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <78fe3e0b66cf40fc8dbec96aa3584483>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.995 seconds
+Domain Reload Profiling: 1450ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (253ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (996ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (401ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (252ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 17.64 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4398 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (54.1 KB). Loaded Objects now: 4909.
+Memory consumption went from 158.7 MB to 158.6 MB.
+Total: 2.762600 ms (FindLiveObjects: 0.254800 ms CreateObjectMapping: 0.110400 ms MarkObjects: 2.303300 ms  DeleteObjects: 0.093400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MenuUtils.cs: ef61e56f05605c149332b0b451f694ed -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 146.661209 seconds.
+  path: Assets/Enviroment/enviroment/Office building
+  artifactKey: Guid(8ba0fb78f50c2dd43b5d7e9c32781e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building using Guid(8ba0fb78f50c2dd43b5d7e9c32781e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286be5ec08442c28a6ab122be99040e9') in 0.001921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.356001 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building.unity
+  artifactKey: Guid(cc855a45dc62bb8479a2ca85a707b08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building.unity using Guid(cc855a45dc62bb8479a2ca85a707b08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46eedbb8c6a625a4f83a1499517da2eb') in 0.000428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 44.057518 seconds.
+  path: Assets/Enviroment/enviroment/Office building/scene/office building
+  artifactKey: Guid(7aeac0db8ac578d41bb08e7a6d63821c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/scene/office building using Guid(7aeac0db8ac578d41bb08e7a6d63821c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bef9e47838b7682fceb84e356a0e9e4') in 0.000446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.681418 seconds.
+  path: Assets/Enviroment/enviroment/Office building/Read me.txt
+  artifactKey: Guid(fe04a3acff3155a43a7c56f17dd7cf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/Read me.txt using Guid(fe04a3acff3155a43a7c56f17dd7cf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f03a75a5840b97b7d45d1a76a6bcaa') in 0.007026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
